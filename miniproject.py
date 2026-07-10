@@ -26,6 +26,7 @@ while True:
     elif choice=="3":
         search=input("Enter name: ")
         for student in students:
+            
             if student["name"]==search:
                 print(student)
     elif choice=="4":
