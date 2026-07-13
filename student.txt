@@ -1,2 +1,13 @@
-hello megha
- uta aitha dhanu
+file = open("student.txt","r")
+data = file.read()
+print(data)
+file.close()
+
+file = open("student.txt","a")
+file.write("\n uta aitha dhanu")
+file.close()
+print("data appended successfully")
+
+file = open("student.txt","r")
+print(file.read())
+file.close()
